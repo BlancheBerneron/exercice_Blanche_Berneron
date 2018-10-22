@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/blancheberneron/Desktop/BA3/ProjetInformatique/5/Exercice/src/main.cpp
+network.h
+/Users/blancheberneron/Desktop/BA3/ProjetInformatique/5/Exercice/src/network.h
+random.h
+/Users/blancheberneron/Desktop/BA3/ProjetInformatique/5/Exercice/src/random.h
+simulation.h
+/Users/blancheberneron/Desktop/BA3/ProjetInformatique/5/Exercice/src/simulation.h
+iostream
+-
+
+/Users/blancheberneron/Desktop/BA3/ProjetInformatique/5/Exercice/src/network.h
+map
+-
+vector
+-
+
+/Users/blancheberneron/Desktop/BA3/ProjetInformatique/5/Exercice/src/random.h
+random
+-
+vector
+-
+algorithm
+-
+
+/Users/blancheberneron/Desktop/BA3/ProjetInformatique/5/Exercice/src/simulation.h
+tclap/CmdLine.h
+-
+
