@@ -3,11 +3,11 @@
 #include "simulation.h"
 #include <iostream>
 
-RandomNumbers RNG;
+ RandomNumbers RNG;
 
 int main(int argc, char **argv) {
-    Network net;
-    Simulation sim(&net);
+    Network net;                    //on créait un objet Network( ccp à coder)
+    Simulation sim(&net);           // on creait un objet Simulation qui prend un Network comme pointeur
     int errcode = 0;
     try {
         sim.initialize(argc, argv);
